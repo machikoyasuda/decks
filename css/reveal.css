@@ -349,6 +349,7 @@ body {
 	font-size: 0.6em;
 	line-height: 1.2em;
 	vertical-align: top;
+	color: rgb(235,235,0);
 }
 
 .reveal small * {
