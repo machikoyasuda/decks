@@ -37,23 +37,31 @@
 			<!-- ESC for full view -->
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>What we learned</h1>
-					<h2>&& you can too</h2>
-					<p>
+				<section data-background="img/into.jpg">
+					<h1>What we learned this summer & you can too</h1>
+					<p style="color: white">
 						<small>[<a href="http://machiko.co">Machiko Yasuda</a> , <a href="http://twitter.com/theresaluu">Theresa Luu</a> , <a href="http://twitter.com/ekubokris">Emilia Kubo Kirschenbaum</a> , <a href="http://twitter.com/s_nawy">Shana Weitzen</a>]</small><br>
 						<small>September 19, 2013</small><br>
 						<small>LA Ruby Women's</small>
 					</p>
 				</section>
 
+				<section data-background="img/ira.jpg" data-background-transition="slide">
+					<h2>Thank you Ira</h2>
+					</ul>
+				</section>
 				<section>
-					<h2>Hello world:</h2>
+					<h2><code>puts 'hello world'</code></h2>
 					<p>
-						Emilia
-						Shana
-						Theresa
-						Machiko
+						<ul style="display: inline;">
+							<li class="fragment" style="display: inline;"><code>'Emilia' =></code><img src="img/emilia.jpg"></li>
+							<li class="fragment" style="display: inline;"><code>'Shana' =></code><img src="img/shana.jpg"></li>
+						</ul>
+					<ul style="display: inline;">
+							<li class="fragment"style="display: inline-block;"><code>'Theresa' =></code><img src="img/theresa.jpg"></li>
+							<li class="fragment" style="display: inline;"><code>'Machiko' =></code><img src="img/machiko.jpg"></li>
+						</ul>
+
 					</p>
 
 					<aside class="notes">
@@ -69,7 +77,7 @@
 				<section>
 					<h2>What are we doing here?</h2>
 					<ol>
-						<li>Machiko: How to work on a project</li>
+						<li>Machiko: How to teach yourself by working on a project</li>
 						<li>Theresa: Learn in groups of friends</li>
 						<li>Emilia: Make an app for your coworkers</li>
 						<li>Shana: Make an app for teaching yourself</li>
@@ -81,12 +89,9 @@
 
 				<!-- Machiko -->
 				<section>
-					<section>
-						<h2>What do you do?</h2>
-						<p>Tell yourself you are a web developer. Why? Because you're working on a project.</p>
-						<p>Web development = Lifelong learning from others and teaching yourself</p>
-						<p>And what are you doing right now?</p>
-						<p>git init</p>
+					<section data-background="img/koala.jpg">
+						<h2 class="fragment">The first step:</h2><code class="fragment">git init</code>
+
 						<aside class="notes">
 							Machiko: So you want to learn programming. Everyone tells you you gotta go to meet-ups. And that's why you're all here. You've all already taken a huge step here. But sometime tonight if you haven't already been asked, you'll get asked here - "What do you do?". It happened to me at the LA Ruby meet-up a few weeks ago. And I struggled to tell someone I was a developer. I was afraid. I felt like a fraud.. I couldn't get my Rails app to work. I told him I was a student, that I'm learning. But guess what. From here on out, if you're working on a project. If you're knee deep in Terminal and coding -- you are a web developer. Learning constantly is part of being a developer, and we're just getting started. We're learning. So we're developers.
 
@@ -102,39 +107,34 @@
 							</ul>
 							<ul>
 								<li>Sketch it out</li>
-								<li>List some milestones</li>
+								<li>List milestones</li>
 								<li>End with your ultimate learning goals</li>
+							</ul>
 						</p>
 					</section>
 					<section>
-						<h2>git commit[ted]: don't fear commitment</h2>
-						<p>photo of commit logs go here.</p>
+						<h2>Just say No to commit-phobia</h2>
+						<p class="fragment"><img src="img/fear.jpg"></p>
+						<code class="fragment">git commit</code>
+
 						<aside class="notes">
 							What's a commit? Your smallest, micro-accomplishment of the session. You'll start small, and every day, pile a few more commits for that day. It's a way to get rid of perfectionism and keep yourself moving. Keep that momentum going with tiny little commits. (It's also good for version control.) Don't be scared of commitment!
 						</aside>
 					</section>
 					<section>
 						<h2>Stand up (once in a while)</h2>
-						<p>Reflect</p>
-						<p>A daily reflection on your progress, your current status and your road blocks. It's good to check-in with yourself about it, and talk to others, too. Do it out loud, tell your Meet-Up friends or post it on your blog.</p>
+						<p class="fragment">Reflect and share</p>
+						<a href="http://dysania.github.io/blog/"><img class="fragment" src="img/dysania.png"></a>
+						<code>git log</code>
 					</section>
-					<section>
-						<h2>git commit [again]</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-					<section>
+					<section data-background="img/15.jpg">
 						<h2>The 15 minute rule</h2>
-						<p>Ask someone (Google, StackOverflow, phone a friend, e-mail a friend). Sometimes in simply taking a step back and thinking about your problem and describing it to a friend, you'll see something you didn't notice before.</p>
 					</section>
 					<section>
-						<h2>git commit. stand up, again.</h2>
-						<p>That's it!</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+					<h2>while learning |do|					</h2>
+						<h2>commit: <code>git commit</code></h2>
+						<h2>stand up: <code>git log</code></h2>
+					<h2>end</h2>
 					</section>
 				</section>
 
@@ -160,6 +160,9 @@
 							Other subjects that could be studied like this: enumerables and loops (assign someone For, Each, While, Map, etc.) and conditionals (if else vs. unless vs. elsifs). Could assign mini-code challenges.
 						</aside>
 					</section>
+					<section><h1>Why whiteboard?</h1></section>
+					<section data-background="img/mergesort-one.jpg"></section>
+					<section><img src="img/mergesort-fun.jpg"></section>
 					<section>
 						<h2>Party time</h2>
 						<ul>
@@ -194,8 +197,8 @@
 					<ul>
 						<li>Talk to us tonight</li>
 						<li>E-mail <a href="mailto:shanaweitzen@gmail.com">Shana</a>, <a href="mailto:theresa.luu@gmail.com">Theresa</a>, <a href="mailto:emilia.kubokirschenbaum@gmail.com">Emilia</a> & <a href="mailto:hello@machiko.co">Machiko</a></li>
-						<li>Twitter <a href="http://twitter.com/s_nawy">@s_nawy</a>, <a href="http://twitter.com/theresaluu">@theresaluu</a>, <a href="http://twitter.com/ekubokris">@ekubokris</a> & <a href="http://twitter.com/machikoyasuda">@machikoyasuda</a>
-						<li>GitHub <a href="http://github.com/shanaweitzen">Shana</a>, <a href="http://github.com/theresaluu">Theresa</a>, <a href="http://github.com/ekubokris">Emilia</a> & <a href="http://github.com/machikoyasuda">Machiko</a></li>
+						<li>Twitter <a href="http://twitter.com/s_nawy">@s_nawy</a>, <a href="http://twitter.com/theresaluu">@theresaluu</a>, <a href="http://twitter.com/ekubokirs">@ekubokirs</a> & <a href="http://twitter.com/machikoyasuda">@machikoyasuda</a>
+						<li>GitHub <a href="http://github.com/shanaweitzen">Shana</a>, <a href="http://github.com/theresaluu">Theresa</a>, <a href="http://github.com/ekubokirs">Emilia</a> & <a href="http://github.com/machikoyasuda">Machiko</a></li>
 					</ul><br><br>
 
 					<h2>&#60;&#47;end&#62;</h2>
